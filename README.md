@@ -1,9 +1,7 @@
-# My-portfolio
+# capstone project
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My-portfolio
-
-> This is my portfolio first page and the objective for the project is to use linter, github flow, documentation of repo. I created My-Portfolio repo, cloned into local machine, added html and css file, extract background image and implemented those tools.
+# A Microverse capstone project
 
 ## Built With
 
