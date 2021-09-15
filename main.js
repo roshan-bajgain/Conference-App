@@ -63,6 +63,7 @@ programInfo.forEach((element) => {
     `;
 });
 
+programs.innerHTML = programHtml;
 
 const speakerInfo = [
   {
@@ -127,6 +128,7 @@ for (let i = 0; i < lessNum; i += 1) {
     </div>
     `;
 }
+lessSpeaker.innerHTML = lessHtml;
 
 const showAllSpeaker = document.querySelector('#speaker-all');
 const allSpeaker = document.querySelector('#speaker-all div');
@@ -150,6 +152,7 @@ for (let i = 0; i < allNum; i += 1) {
     </div>
     `;
 }
+allSpeaker.innerHTML = allHtml;
 
 const showMore = document.querySelector('#show-more');
 const showLess = document.querySelector('#show-less');
@@ -161,9 +164,13 @@ function showSpeakers() {
   showLess.style.display = 'inline-block';
 }
 
+showMore.addEventListener('click', showSpeakers);
+
 function closeSpeakers() {
   lessSpeaker.style.display = 'block';
   showAllSpeaker.style.display = 'none';
   showMore.style.display = 'inline-block';
   showLess.style.display = 'none';
 }
+
+showLess.addEventListener('click', closeSpeakers);
