@@ -1,8 +1,12 @@
 # capstone project
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# A Microverse capstone project
-
+# Conference page
+  - This is my Conference page. With the proper flow of git and Linter I make this page.
+  Firstly I make mobile website using basic HTML ans CSS. After that I worked on bigger screen like desktop and with 
+  Adjusticable width I work on desktop. After completing the desktop I work on js for making the mobile menu  appear.
+  After I make the website dymanic using js.
+  
 ## Built With
 
 - HTML
@@ -15,7 +19,7 @@
 
 ## Getting Started
 
-**This is my portfolio first page**
+**This is my Capstone first page**
 
 
 To get a local copy up and running follow these simple example steps.
