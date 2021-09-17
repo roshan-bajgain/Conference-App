@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav id="social">
+                <ul class="d-flex flex-row justify-content-md-end">
+                    <li><img id="fb" src="img/icons/fb.png" alt="facebook">
+                    </li>
+                    <li><img id="tt" src="img/icons/twitter.png" alt="twitter"></li>
+                    <li class="litext">English</li>
+                    <li class="litext">My Page</li>
+                    <li class="litext">Logout</li>
+                </ul>
+            </nav>
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item "><a href="index.html"><img id="logo" src="img/icons/logo.png"
+                                        alt="logo"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Program</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Join</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Sponsor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Join!</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section id="home">
+            <h2 id="greeting">"Hello, World!"</h2>
+            <h1 id="topic">Fundamental and Application of Web Development</h1>
+            <div id="description">
+                <p>A web development course that teaches HTML, CSS, and Javascript and enables you to build your own
+                    website from scratch.
+                    The learning path involving doing real-world projects with partners can lead you to a job in the
+                    highly demanded work
+                    market. </p>
+            </div>
+            <h2 id="time">Autumn Semaster Starting Date: 2021.10.2 (Sat) </h2>
+            <h3 id="location"> @ Success Bulding 101, Department of Computer Science
+            </h3>
+        </section>
+        <section id="program">
+            <div id="program-content">
+                <h3>Main Porgram</h3>
+                <hr>
+                <div class="container" id="program-container">
+                    <div class="row justify-content-md-center" id="program-div">
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button id="join-btn">Join 2021 Autum Semaster</button>
+                    <a id="see-link" href="#">SEE THE WHOLE PROGRAM</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="speaker">
+        <h3>Featured Speakers</h3>
+        <hr id="hr-speaker">
+        <div id="speaker-less">
+        </div>
+        <div id="speaker-all">
+            <div class="row row-cols-1 row-cols-md-2">
+            </div>
+        </div>
+
+        <div class="text-center" id="showbtn">
+            <button class="btn btn-outline-secondary" id="show-more">Show More<img id="down" src="img/icons/down.png"
+                    alt="down arrow">
+            </button>
+            <button class="btn btn-secondary" id="show-less">Show Less<img id="up" src="img/icons/up.png"
+                    alt="down arrow">
+            </button>
+        </div>
+    </section>
+    <section id="partner">
+        <h3>Partner</h3>
+        <hr id="hr-partner">
+        <div id="partner-logo">
+            <div class="row justify-content-center">
+                <div class="col-4 col-md-2"><img src="img/partners/google.png" alt="">
+                </div>
+                <div class="col-4 col-md-2"><img src="img/partners/amazon.png" alt=""></div>
+                <div class="col-4 col-md-2"><img src="img/partners/Apple_logo_grey.png" alt=""></div>
+                <div class="col-4 col-md-2"><img src="img/partners/figma.png" alt=""></div>
+                <div class="col-4 col-md-2"><img src="img/partners/github.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="statement">
+            <div class="row rol-cols-2 align-items-center">
+                <div class="col-5 col-md-3"><img src="img/icons/logo.png" alt=""></div>
+                <div class="col-7 col-md-9">
+                    <ul>
+                        <li>
+                            <p>Some Copyright Reserved by FAWD </p>
+                        </li>
+                        <li>
+                            <p>This website is for education traning purpose. The event doesn't accutally exist.
+                                The speaks' information is collected from amazon book store. The infromatino will
+                                never be used for any commercial purpose.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
