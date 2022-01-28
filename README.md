@@ -6,6 +6,7 @@
   Firstly I make mobile website using basic HTML ans CSS. After that I worked on bigger screen like desktop and with 
   Adjusticable width I work on desktop. After completing the desktop I work on js for making the mobile menu  appear.
   After I make the website dymanic using js.
+       This project is one of the projects from my Microverse portfolio that aims to show you my skills in web design and responsive design. This project is based on an online website for a conference
 
 ## Built With
 
